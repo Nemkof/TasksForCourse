@@ -43,7 +43,6 @@ public class PasswordGenerator {
             password.append(getRandomCharacter(ALL_CHARACTERS, random));
         }
 
-        // Перемешиваем пароль для большей безопасности
         return password.toString();
     }
 
